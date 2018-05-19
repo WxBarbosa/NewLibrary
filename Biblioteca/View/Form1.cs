@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Biblioteca.Model;
 
 namespace Biblioteca
 {
-    public partial class Form1 : Form
+    public partial class FrmLogin : Form
     {
-        public Form1()
+        public FrmLogin()
         {
+            AcervoModel acervo = new AcervoModel();
             InitializeComponent();
         }
     }
