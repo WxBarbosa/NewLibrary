@@ -17,6 +17,7 @@ namespace Biblioteca
         {
             AcervoModel acervo = new AcervoModel();
             InitializeComponent();
+            Model.AcervoModel model = new AcervoModel();
         }
     }
 }

@@ -35,14 +35,14 @@
             // 
             // txtLogin
             // 
-            this.txtLogin.Location = new System.Drawing.Point(193, 59);
+            this.txtLogin.Location = new System.Drawing.Point(12, 12);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(220, 20);
             this.txtLogin.TabIndex = 0;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(193, 104);
+            this.txtSenha.Location = new System.Drawing.Point(366, 12);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(220, 20);
             this.txtSenha.TabIndex = 1;

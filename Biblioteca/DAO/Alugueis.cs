@@ -8,7 +8,7 @@ namespace Biblioteca.DAO
 {
     class Alugueis
     { 
-        public string aluCod { get; set; }
+        public string aluCodigo { get; set; }
         public string aluFuncionarioCodigo { get; set; }
         public string aluClienteCodigo { get; set; }
         public string aluLivCodigo { get; set; }

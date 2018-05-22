@@ -54,6 +54,9 @@
     <Compile Include="DAO\Acervo\Artigo.cs" />
     <Compile Include="DAO\GeradorCodigo.cs" />
     <Compile Include="DAO\Users.cs" />
+    <Compile Include="Model\AcervoModel.cs" />
+    <Compile Include="Model\AlugueisModel.cs" />
+    <Compile Include="Model\UsersModel.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

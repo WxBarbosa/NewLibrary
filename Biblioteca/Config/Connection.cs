@@ -8,16 +8,16 @@ using Biblioteca.DAO.Acervo;
 
 namespace Biblioteca.Config
 {
-    class Connection
+    class Connection 
     {
         /* ATTRIBUTES */
         public MySqlCommand command { get; set; }
         public MySqlConnection conexao { get; set; }
-        private string HOST = "127.0.0.1";
-        private string UID = "root";
-        private string DATABASE = "raidcall";
-        private string PASS = "";
-        private string PORT = "";
+        private string HOST = "127.0.0.1"; //Server
+        private string UID = "root"; // User
+        private string DATABASE = "raidcall"; // Banco de dados 
+        private string PASS = ""; // Senha
+        private string PORT = ""; // Porta Se houver
         public string StringConexao = "Server={HOST};Database={DATABASE};Uid={UID};Password={PASS};";
 
         /* METHODS */
