@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Biblioteca.DAO.User;
+using Biblioteca.DAO.Acervo;
 
 namespace Biblioteca.DAO
 {
-    class Alugueis
+    class Aluguel
     { 
         public string aluCodigo { get; set; }
-        public string aluFuncionarioCodigo { get; set; }
-        public string aluClienteCodigo { get; set; }
-        public string aluLivCodigo { get; set; }
-        public string aluExeCodigo { get; set; }
+        public Funcionario _funcionario = new Funcionario();
+        public Normal _normal = new Normal();
+        public Livro _livro = new Livro();
         public DateTime aluDataEmprestimo { get; set; }
         public DateTime aluDataDevolucao { get; set; }
     }

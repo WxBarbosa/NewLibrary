@@ -15,8 +15,7 @@ namespace Biblioteca.DAO
         /// </summary>
         public void CriaGuid()
         {
-             this.guid = new Guid();
-             
+             this.guid = new Guid();             
         }
 
         /// <summary>

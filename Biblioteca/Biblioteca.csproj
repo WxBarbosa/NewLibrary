@@ -47,26 +47,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config\Connection.cs" />
-    <Compile Include="DAO\Acervo\Acervo.cs" />
+    <Compile Include="DAO\Acervo\Autor.cs" />
     <Compile Include="DAO\Acervo\Livro.cs" />
-    <Compile Include="DAO\Acervo\TCC.cs" />
-    <Compile Include="DAO\Alugueis.cs" />
-    <Compile Include="DAO\Acervo\Artigo.cs" />
+    <Compile Include="DAO\Acervo\Status.cs" />
+    <Compile Include="DAO\Acervo\Tema.cs" />
+    <Compile Include="DAO\Aluguel\Aluguel.cs" />
     <Compile Include="DAO\GeradorCodigo.cs" />
-    <Compile Include="DAO\Users.cs" />
+    <Compile Include="DAO\User\Funcionario.cs" />
+    <Compile Include="DAO\User\Normal.cs" />
+    <Compile Include="DAO\User\Users.cs" />
     <Compile Include="Model\AcervoModel.cs" />
-    <Compile Include="Model\AlugueisModel.cs" />
+    <Compile Include="Model\AluguelModel.cs" />
     <Compile Include="Model\UsersModel.cs" />
-    <Compile Include="View\Form1.cs">
+    <Compile Include="View\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="View\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="View\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="View\frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

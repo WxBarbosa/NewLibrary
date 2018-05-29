@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.DAO.Acervo
 {
-    class TCC : Acervo
+    class Tema
     {
-        public string codigo { get; set; }
-        public DateTime dataPublicacao { get; set; }
-        
+        public int temaCod { get; set; }
+        public string temaNome { get; set; }
     }
 }

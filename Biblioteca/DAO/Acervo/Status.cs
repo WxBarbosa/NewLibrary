@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.DAO.Acervo
 {
-    class Artigo : Acervo
+    class Status
     {
-        public string codigo { get; set; }
-        public DateTime dataPublicacao { get; set; }
+        public int statusCod { get; set; }
+        public string statusNome { get; set; }
     }
 }

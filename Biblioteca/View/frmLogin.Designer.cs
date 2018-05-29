@@ -36,35 +36,41 @@
             // txtLogin
             // 
             this.txtLogin.Location = new System.Drawing.Point(12, 12);
+            this.txtLogin.MaxLength = 20;
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(220, 20);
             this.txtLogin.TabIndex = 0;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(366, 12);
+            this.txtSenha.Location = new System.Drawing.Point(12, 38);
+            this.txtSenha.MaxLength = 25;
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(220, 20);
             this.txtSenha.TabIndex = 1;
             // 
             // btnLogar
             // 
-            this.btnLogar.Location = new System.Drawing.Point(260, 244);
+            this.btnLogar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnLogar.Location = new System.Drawing.Point(261, 12);
             this.btnLogar.Name = "btnLogar";
-            this.btnLogar.Size = new System.Drawing.Size(75, 23);
+            this.btnLogar.Size = new System.Drawing.Size(108, 36);
             this.btnLogar.TabIndex = 2;
             this.btnLogar.Text = "Logar";
             this.btnLogar.UseVisualStyleBackColor = true;
+            this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(598, 310);
+            this.ClientSize = new System.Drawing.Size(761, 398);
             this.Controls.Add(this.btnLogar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtLogin);
+            this.MaximizeBox = false;
             this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
